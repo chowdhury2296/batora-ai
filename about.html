@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>About — Botora AI</title>
+<title>About — Batora AI</title>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
 <!-- REPLACE G-XXXXXXXXXX with your GA4 Measurement ID from analytics.google.com -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
@@ -283,9 +283,20 @@
   .founder-initials {
     font-family: 'Syne', sans-serif;
     font-weight: 800;
-    font-size: 3rem;
+    font-size: 1.25rem;
     color: var(--accent);
-    letter-spacing: -0.04em;
+    letter-spacing: 0.01em;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .founder-initials::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: var(--accent);
+    border-radius: 50%;
+    flex-shrink: 0;
   }
   .founder-photo-label {
     font-size: 0.72rem;
@@ -439,9 +450,9 @@
     gap: 16px;
   }
   footer .logo { font-size: 1rem; }
-  footer p { color: var(--muted); font-size: 0.8rem; }
+  footer p { color: #9a9ab0; font-size: 0.875rem; }
   .footer-links { display: flex; gap: 24px; }
-  .footer-links a { color: var(--muted); text-decoration: none; font-size: 0.8rem; transition: color 0.2s; }
+  .footer-links a { color: #9a9ab0; text-decoration: none; font-size: 0.875rem; transition: color 0.2s; }
   .footer-links a:hover { color: var(--text); }
 
   /* Scroll reveal */
@@ -489,7 +500,7 @@
 <nav id="nav">
   <a href="index.html" class="logo">
     <div class="logo-dot"></div>
-    Botora AI
+    Batora AI
   </a>
   <ul class="nav-links">
     <li><a href="services.html">Services</a></li>
@@ -509,39 +520,31 @@
 <div class="page-hero">
   <div class="hero-grid"></div>
   <div class="orb orb-1"></div>
-  <div class="section-label">About Botora AI</div>
+  <div class="section-label">About Batora AI</div>
   <!-- UPDATE: Customize this headline to reflect your actual story -->
-  <h1>We built Botora AI because small businesses deserve <span class="highlight">better</span></h1>
+  <h1>We built Batora AI because small businesses deserve <span class="highlight">better</span></h1>
   <!-- UPDATE: Update this paragraph with your real background and motivation -->
   <p>Most automation tools are built for enterprise teams with dedicated engineers. We build for the business owner who's doing everything themselves — and shouldn't have to be.</p>
 </div>
 
 <!-- FOUNDER SECTION -->
 <section class="founder-section">
-  <div class="section-label reveal">The Founder</div>
+  <div class="section-label reveal">Our Story</div>
   <div class="founder-grid">
-    <!-- UPDATE: Replace this placeholder with your actual photo.
-         Option 1: Add an <img> tag inside .founder-photo with src="assets/your-photo.jpg"
-         Option 2: Set background-image on .founder-photo in CSS -->
     <div class="founder-photo reveal">
-      <!-- UPDATE: Change these initials to your own -->
-      <div class="founder-initials">BA</div>
-      <div class="founder-photo-label">Founder & Builder</div>
+      <div class="founder-initials">Batora AI</div>
+      <div class="founder-photo-label">Automation Experts</div>
     </div>
     <div class="founder-content reveal">
-      <!-- UPDATE: Replace this entire block with your real name and story -->
-      <h2>Hi, I'm [Your Name] — I started Botora AI to solve a problem I kept seeing everywhere.</h2>
+      <h2>Batora AI was built because small businesses were losing thousands of hours to work that should never have been manual.</h2>
       <p>
-        <!-- UPDATE: Your background — where you came from, what you did before -->
-        I spent years working in tech, watching talented business owners spend hours every day on tasks that should have been automated years ago. Following up with leads manually. Sending the same reminders over and over. Copying data between tools.
+        We spent years in the trenches of tech — watching talented, hardworking business owners spend hours every day on tasks a machine could handle in seconds. Following up with leads by hand. Sending the same reminder texts one by one. Copying data between tools that never talked to each other.
       </p>
       <p>
-        <!-- UPDATE: The specific moment or insight that led you to start this -->
-        The tools to fix this already exist — Zapier, Make, AI APIs, CRMs — but most small business owners don't have the time or technical background to stitch them together. That gap is exactly what Botora AI fills.
+        The technology to fix all of it already existed — Zapier, Make, AI APIs, CRMs — but connecting it all requires real technical depth that most small business owners simply don't have time to develop. That's the gap Batora AI was built to close.
       </p>
       <p>
-        <!-- UPDATE: What you personally bring to clients -->
-        I work directly with every client. You'll always be talking to the person who actually builds your automations — not a salesperson who hands you off to a junior team. <strong>That's what makes Botora AI different.</strong>
+        We work directly with every client. You'll always deal with the people who actually build your automations — not a sales team that hands you off to someone else. <strong>That direct relationship is what makes Batora AI different.</strong>
       </p>
     </div>
   </div>
@@ -576,7 +579,7 @@
 <!-- WHY US -->
 <section class="why-section">
   <div class="why-header reveal">
-    <div class="section-label">Why Botora AI</div>
+    <div class="section-label">Why Batora AI</div>
     <h2 class="section-title">We're not a SaaS tool. We're your automation team.</h2>
     <p>There's a difference between a platform that lets you build automations and a team that builds them for you — and maintains them when things change.</p>
   </div>
@@ -627,9 +630,9 @@
 <footer>
   <a href="index.html" class="logo">
     <div class="logo-dot"></div>
-    Botora AI
+    Batora AI
   </a>
-  <p>© 2025 Botora AI. All rights reserved.</p>
+  <p>© 2025 Batora AI. All rights reserved.</p>
   <div class="footer-links">
     <a href="services.html">Services</a>
     <a href="about.html">About</a>
